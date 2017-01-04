@@ -10,3 +10,6 @@ If so, you came to the right place!
 
 ##Tray
 ![Tray](Artifacts/tray.png)
+
+##Developer
+[http://patrikx3.tk](http://patrikx3.tk)

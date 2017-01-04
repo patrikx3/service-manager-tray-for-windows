@@ -14,3 +14,5 @@ If so, you came to the right place!
 ##Developer
 [http://patrikx3.tk](http://patrikx3.tk)
 
+##Old version
+[http://winservicemanager.codeplex.com/](http://winservicemanager.codeplex.com/)

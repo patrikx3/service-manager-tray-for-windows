@@ -13,6 +13,18 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{4FF65FD8-2617-46B1-8948-E3AF7AA7774E}"
 	ProjectSection(SolutionItems) = preProject
 		.gitignore = .gitignore
+		LICENSE.md = LICENSE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Artifacts", "Artifacts", "{5C37A80C-A391-404E-8870-A8B12A8A3FB3}"
+	ProjectSection(SolutionItems) = preProject
+		Artifacts\Application.JPG = Artifacts\Application.JPG
+		Artifacts\pad_file.xml = Artifacts\pad_file.xml
+		Artifacts\patrik-laszlo.cml = Artifacts\patrik-laszlo.cml
+		Artifacts\tray.png = Artifacts\tray.png
+		Artifacts\window.png = Artifacts\window.png
+		Artifacts\windows_service_manager.pml = Artifacts\windows_service_manager.pml
 	EndProjectSection
 EndProject
 Global
@@ -97,6 +109,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5C37A80C-A391-404E-8870-A8B12A8A3FB3} = {4FF65FD8-2617-46B1-8948-E3AF7AA7774E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		VisualSVNWorkingCopyRoot = .

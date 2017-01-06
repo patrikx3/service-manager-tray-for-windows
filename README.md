@@ -16,3 +16,5 @@ If so, you came to the right place!
 
 ##Old version
 [http://winservicemanager.codeplex.com/](http://winservicemanager.codeplex.com/)
+
+&copy; Jun 29, 2009

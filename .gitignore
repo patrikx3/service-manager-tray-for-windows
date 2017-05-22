@@ -1,2 +1,5 @@
 Installer/Installer
 .vs
+/Service-Manager-Tray-Installer/Debug
+/Service-Manager-Tray-Installer/Release
+/ServiceManagerTray/*.user

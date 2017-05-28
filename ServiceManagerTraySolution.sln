@@ -1,9 +1,14 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.26430.6
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Service Manager Tray", "ServiceManagerTray\Service Manager Tray.csproj", "{5ACD07B8-8874-4C8F-B6A6-66E646218FA3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceManagerTray", "ServiceManagerTray\ServiceManagerTray.csproj", "{5ACD07B8-8874-4C8F-B6A6-66E646218FA3}"
+EndProject
+Project("{6141683F-8A12-4E36-9623-2EB02B2C2303}") = "Installer", "Installer\Installer.isproj", "{7E40C96A-6188-42CB-BB80-57197A64EEE6}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5ACD07B8-8874-4C8F-B6A6-66E646218FA3} = {5ACD07B8-8874-4C8F-B6A6-66E646218FA3}
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution", "Solution", "{4FF65FD8-2617-46B1-8948-E3AF7AA7774E}"
 	ProjectSection(SolutionItems) = preProject
@@ -21,8 +26,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Artifacts", "Artifacts", "{
 		Artifacts\window.png = Artifacts\window.png
 		Artifacts\windows_service_manager.pml = Artifacts\windows_service_manager.pml
 	EndProjectSection
-EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Service Manager Tray Installer", "Service-Manager-Tray-Installer\Service-Manager-Tray-Installer.vdproj", "{7C19D956-9B9E-4CE0-BBE7-21DBD0179734}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -73,21 +76,36 @@ Global
 		{5ACD07B8-8874-4C8F-B6A6-66E646218FA3}.SingleImage|x64.Build.0 = Release|x64
 		{5ACD07B8-8874-4C8F-B6A6-66E646218FA3}.SingleImage|x86.ActiveCfg = Release|x86
 		{5ACD07B8-8874-4C8F-B6A6-66E646218FA3}.SingleImage|x86.Build.0 = Release|x86
-		{7C19D956-9B9E-4CE0-BBE7-21DBD0179734}.CD_ROM|Any CPU.ActiveCfg = Release
-		{7C19D956-9B9E-4CE0-BBE7-21DBD0179734}.CD_ROM|x64.ActiveCfg = Release
-		{7C19D956-9B9E-4CE0-BBE7-21DBD0179734}.CD_ROM|x86.ActiveCfg = Release
-		{7C19D956-9B9E-4CE0-BBE7-21DBD0179734}.Debug|Any CPU.ActiveCfg = Debug
-		{7C19D956-9B9E-4CE0-BBE7-21DBD0179734}.Debug|x64.ActiveCfg = Debug
-		{7C19D956-9B9E-4CE0-BBE7-21DBD0179734}.Debug|x86.ActiveCfg = Debug
-		{7C19D956-9B9E-4CE0-BBE7-21DBD0179734}.DVD-5|Any CPU.ActiveCfg = Debug
-		{7C19D956-9B9E-4CE0-BBE7-21DBD0179734}.DVD-5|x64.ActiveCfg = Debug
-		{7C19D956-9B9E-4CE0-BBE7-21DBD0179734}.DVD-5|x86.ActiveCfg = Debug
-		{7C19D956-9B9E-4CE0-BBE7-21DBD0179734}.Release|Any CPU.ActiveCfg = Release
-		{7C19D956-9B9E-4CE0-BBE7-21DBD0179734}.Release|x64.ActiveCfg = Release
-		{7C19D956-9B9E-4CE0-BBE7-21DBD0179734}.Release|x86.ActiveCfg = Release
-		{7C19D956-9B9E-4CE0-BBE7-21DBD0179734}.SingleImage|Any CPU.ActiveCfg = Release
-		{7C19D956-9B9E-4CE0-BBE7-21DBD0179734}.SingleImage|x64.ActiveCfg = Release
-		{7C19D956-9B9E-4CE0-BBE7-21DBD0179734}.SingleImage|x86.ActiveCfg = Release
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.CD_ROM|Any CPU.ActiveCfg = CD_ROM
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.CD_ROM|Any CPU.Build.0 = CD_ROM
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.CD_ROM|x64.ActiveCfg = CD_ROM
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.CD_ROM|x64.Build.0 = CD_ROM
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.CD_ROM|x86.ActiveCfg = CD_ROM
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.CD_ROM|x86.Build.0 = CD_ROM
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.Debug|Any CPU.ActiveCfg = DVD-5
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.Debug|Any CPU.Build.0 = DVD-5
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.Debug|x64.ActiveCfg = DVD-5
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.Debug|x64.Build.0 = DVD-5
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.Debug|x86.ActiveCfg = DVD-5
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.Debug|x86.Build.0 = DVD-5
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.DVD-5|Any CPU.ActiveCfg = DVD-5
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.DVD-5|Any CPU.Build.0 = DVD-5
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.DVD-5|x64.ActiveCfg = DVD-5
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.DVD-5|x64.Build.0 = DVD-5
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.DVD-5|x86.ActiveCfg = DVD-5
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.DVD-5|x86.Build.0 = DVD-5
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.Release|Any CPU.ActiveCfg = SingleImage
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.Release|Any CPU.Build.0 = SingleImage
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.Release|x64.ActiveCfg = SingleImage
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.Release|x64.Build.0 = SingleImage
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.Release|x86.ActiveCfg = SingleImage
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.Release|x86.Build.0 = SingleImage
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.SingleImage|Any CPU.ActiveCfg = SingleImage
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.SingleImage|Any CPU.Build.0 = SingleImage
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.SingleImage|x64.ActiveCfg = SingleImage
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.SingleImage|x64.Build.0 = SingleImage
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.SingleImage|x86.ActiveCfg = SingleImage
+		{7E40C96A-6188-42CB-BB80-57197A64EEE6}.SingleImage|x86.Build.0 = SingleImage
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

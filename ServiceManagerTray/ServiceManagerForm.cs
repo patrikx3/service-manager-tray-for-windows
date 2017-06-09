@@ -30,6 +30,9 @@ namespace chc.servicemanagertray
         /// </summary>
         private string instance_selected_service_name = null;
 
+        private FormWindowState mLastState;
+        private bool firstSave = true;
+
         #endregion
 
         #region Constructor
@@ -65,6 +68,9 @@ namespace chc.servicemanagertray
             }
             searchFilter.TextChanged += SearchFilter_TextChanged;
             searchServiceInfo.TextChanged += searchServiceInfo_TextChanged;
+
+            mLastState = this.WindowState;
+            this.WindowState = Properties.Settings.Default.FormWindowState;
         }
 
         private void SearchFilter_TextChanged(object sender, EventArgs e)
@@ -92,7 +98,7 @@ namespace chc.servicemanagertray
         private void InitializeForm()
         {
 #if DEBUG
-            WindowState = FormWindowState.Normal;
+//            WindowState = FormWindowState.Normal;
 #endif
             this.ds = new ServiceDataSource();
 
@@ -352,6 +358,7 @@ namespace chc.servicemanagertray
         public void QuitForm()
         {
             SaveSettings();
+
             Application.Exit();
         }
 
@@ -375,6 +382,8 @@ namespace chc.servicemanagertray
         {
             SaveGridSortState();
             Properties.Settings.Default.Save();
+
+//            MessageBox.Show("Save: " + Properties.Settings.Default.FormWindowState.ToString());
         }
 
 
@@ -399,7 +408,8 @@ namespace chc.servicemanagertray
             {
                 ShowForm();
             }
-
+            Properties.Settings.Default.FormWindowState = this.WindowState;
+            SaveSettings();
         }
 
 
@@ -430,11 +440,24 @@ namespace chc.servicemanagertray
         /// <param name="e"></param>
         private void ServiceManagerForm_FormClosing(object sender, FormClosingEventArgs e)
         {
+//            MessageBox.Show(e.CloseReason.ToString());
+            switch (e.CloseReason)
+            {
+                case CloseReason.WindowsShutDown:
+                case CloseReason.ApplicationExitCall:
+                    break;
+            
+                default:
+                    e.Cancel = true;
+                    WindowState = FormWindowState.Minimized;
+                    break;
+            }
+            /*
             if (e.CloseReason != CloseReason.ApplicationExitCall)
             {
                 e.Cancel = true;
-                WindowState = FormWindowState.Minimized;
-            }
+            } 
+            */
         }
 
         #endregion
@@ -640,6 +663,24 @@ namespace chc.servicemanagertray
         }
         #endregion
 
+        protected override void OnClientSizeChanged(EventArgs e)
+        {
+            if (this.WindowState != mLastState)
+            {
+                mLastState = this.WindowState;
+                OnWindowStateChanged(e);
+            }
+            base.OnClientSizeChanged(e);
+        }
+        protected void OnWindowStateChanged(EventArgs e)
+        {
+            if (firstSave)
+            {
+                firstSave = false;
+                return;
+            }
+            Properties.Settings.Default.FormWindowState = this.WindowState;
+        }
 
         #region Tool Strip Events
 
@@ -666,6 +707,5 @@ namespace chc.servicemanagertray
 
 
         #endregion
-
     }
 }

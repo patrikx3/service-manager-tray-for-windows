@@ -17,4 +17,18 @@ If so, you came to the right place!
 ## Old version
 [http://winservicemanager.codeplex.com/](http://winservicemanager.codeplex.com/)
 
+# Some reviews
+http://www.softpedia.com/get/System/System-Miscellaneous/Service-Manager-Tray.shtml
+
+http://www.01net.com/telecharger/windows/Utilitaire/systeme/fiches/136343.html
+
+https://briian.com/6368/
+
+http://www.brothersoft.com/service-manager-tray-293357.html
+
+# Publish 
+
+http://publisher.appvisor.com/
+
+
 &copy; Jun 29, 2009

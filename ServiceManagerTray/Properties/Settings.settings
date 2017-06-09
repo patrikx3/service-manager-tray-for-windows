@@ -15,5 +15,8 @@
     <Setting Name="SortOrder" Type="System.Windows.Forms.SortOrder" Scope="User">
       <Value Profile="(Default)">Ascending</Value>
     </Setting>
+    <Setting Name="FormWindowState" Type="System.Windows.Forms.FormWindowState" Scope="User">
+      <Value Profile="(Default)">Normal</Value>
+    </Setting>
   </Settings>
 </SettingsFile>

@@ -140,6 +140,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ColorHelper.cs" />
+    <Compile Include="PortableSettingsProvider.cs" />
     <Compile Include="PropertyComparer.cs" />
     <Compile Include="ServiceDataSource.cs" />
     <Compile Include="ServiceManagerForm.cs">

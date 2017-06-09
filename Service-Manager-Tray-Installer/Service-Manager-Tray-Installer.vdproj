@@ -49,6 +49,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -65,6 +73,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
     }
     "Deployable"
@@ -181,15 +197,15 @@
         {
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Service Manager Tray"
-        "ProductCode" = "8:{A059E5F3-9E5D-4B6F-A044-A5012F25BD07}"
-        "PackageCode" = "8:{8B482697-6A11-467D-A92A-8E1C12A0BD6F}"
+        "ProductCode" = "8:{8A6796A9-65AC-4B5D-9D09-9F6A32649FA3}"
+        "PackageCode" = "8:{E06489B5-FA77-40DA-AC05-8282E6C770AB}"
         "UpgradeCode" = "8:{9AEE7188-033D-4C05-8D66-20E147F1CA00}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
         "RemovePreviousVersions" = "11:TRUE"
         "DetectNewerInstalledVersion" = "11:TRUE"
         "InstallAllUsers" = "11:TRUE"
-        "ProductVersion" = "8:1.0.0"
+        "ProductVersion" = "8:1.0.1"
         "Manufacturer" = "8:P3X"
         "ARPHELPTELEPHONE" = "8:"
         "ARPHELPLINK" = "8:"

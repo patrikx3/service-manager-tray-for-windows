@@ -10,9 +10,9 @@ using System.Resources;
 [assembly: AssemblyTitle("Service Manager Tray")]
 [assembly: AssemblyDescription("Simplified tray based customizable service controller application for developers.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("patrikx3.tk")]
+[assembly: AssemblyCompany("patrikx3.com")]
 [assembly: AssemblyProduct("Service Manager Tray")]
-[assembly: AssemblyCopyright("Copyright © patrikx3.tk 2009")]
+[assembly: AssemblyCopyright("Copyright © patrikx3.com 2009")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

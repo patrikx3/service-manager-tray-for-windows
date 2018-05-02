@@ -12,7 +12,7 @@ If so, you came to the right place!
 ![Tray](Artifacts/tray.png)
 
 ## Developer
-[http://patrikx3.tk](http://patrikx3.tk)
+[http://patrikx3.com](http://patrikx3.com)
 
 ## Old version
 [http://winservicemanager.codeplex.com/](http://winservicemanager.codeplex.com/)

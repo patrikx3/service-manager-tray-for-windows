@@ -14,9 +14,6 @@ If so, you came to the right place!
 ## Developer
 [http://patrikx3.com](http://patrikx3.com)
 
-## Old version
-[http://winservicemanager.codeplex.com/](http://winservicemanager.codeplex.com/)
-
 # Some reviews
 http://www.softpedia.com/get/System/System-Miscellaneous/Service-Manager-Tray.shtml
 

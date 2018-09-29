@@ -12,7 +12,7 @@ using System.Resources;
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("patrikx3.com")]
 [assembly: AssemblyProduct("Service Manager Tray")]
-[assembly: AssemblyCopyright("Copyright © patrikx3.com 2009")]
+[assembly: AssemblyCopyright("Copyright © patrikx3.com 2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 

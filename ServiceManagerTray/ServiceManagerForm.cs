@@ -471,9 +471,12 @@ namespace chc.servicemanagertray
         /// <param name="e"></param>
         private void trayicon_MouseClick(object sender, MouseEventArgs e)
         {
+            RefreshGrid();
             if (e.Button == MouseButtons.Left)
             {
                 ToggleFormDisplay();
+            } else if (e.Button == MouseButtons.Right) {
+                this.BuildTrayMenu();
             }
         }
 

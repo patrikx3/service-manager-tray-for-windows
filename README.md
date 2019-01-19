@@ -28,4 +28,4 @@ http://www.brothersoft.com/service-manager-tray-293357.html
 http://publisher.appvisor.com/
 
 
-&copy; 2018
+&copy; 2019

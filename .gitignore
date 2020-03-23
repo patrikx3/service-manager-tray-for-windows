@@ -3,3 +3,4 @@ Installer/Installer
 /Service-Manager-Tray-Installer/Debug
 /Service-Manager-Tray-Installer/Release
 /ServiceManagerTray/*.user
+.idea

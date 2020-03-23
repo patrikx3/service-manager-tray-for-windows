@@ -117,7 +117,7 @@
             this.toolStripSeparator3,
             this.trayicon_menu_exit});
             this.trayicon_menu.Name = "contextMenuStrip1";
-            this.trayicon_menu.Size = new System.Drawing.Size(451, 200);
+            this.trayicon_menu.Size = new System.Drawing.Size(221, 136);
             // 
             // trayicon_menu_servicemanager
             // 
@@ -125,7 +125,7 @@
             this.trayicon_menu_servicemanager.Font = new System.Drawing.Font("Tahoma", 9F, System.Drawing.FontStyle.Bold);
             this.trayicon_menu_servicemanager.Image = ((System.Drawing.Image)(resources.GetObject("trayicon_menu_servicemanager.Image")));
             this.trayicon_menu_servicemanager.Name = "trayicon_menu_servicemanager";
-            this.trayicon_menu_servicemanager.Size = new System.Drawing.Size(450, 46);
+            this.trayicon_menu_servicemanager.Size = new System.Drawing.Size(220, 30);
             this.trayicon_menu_servicemanager.Text = "&Service Manager";
             this.trayicon_menu_servicemanager.Click += new System.EventHandler(this.trayicon_menu_servicemanager_Click);
             // 
@@ -133,13 +133,13 @@
             // 
             this.trayicon_menu_separator1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
             this.trayicon_menu_separator1.Name = "trayicon_menu_separator1";
-            this.trayicon_menu_separator1.Size = new System.Drawing.Size(447, 6);
+            this.trayicon_menu_separator1.Size = new System.Drawing.Size(217, 6);
             // 
             // toolStripMenuItem2
             // 
             this.toolStripMenuItem2.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem2.Image")));
             this.toolStripMenuItem2.Name = "toolStripMenuItem2";
-            this.toolStripMenuItem2.Size = new System.Drawing.Size(450, 46);
+            this.toolStripMenuItem2.Size = new System.Drawing.Size(220, 30);
             this.toolStripMenuItem2.Text = "Task manager";
             this.toolStripMenuItem2.Click += new System.EventHandler(this.toolstrip_taskmanager_Click);
             // 
@@ -147,21 +147,21 @@
             // 
             this.toolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripMenuItem1.Image")));
             this.toolStripMenuItem1.Name = "toolStripMenuItem1";
-            this.toolStripMenuItem1.Size = new System.Drawing.Size(450, 46);
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(220, 30);
             this.toolStripMenuItem1.Text = "Windows service manager";
             this.toolStripMenuItem1.Click += new System.EventHandler(this.toolstrip_winservicemanager_Click);
             // 
             // toolStripSeparator3
             // 
             this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(447, 6);
+            this.toolStripSeparator3.Size = new System.Drawing.Size(217, 6);
             // 
             // trayicon_menu_exit
             // 
             this.trayicon_menu_exit.Font = new System.Drawing.Font("Tahoma", 8.25F, System.Drawing.FontStyle.Bold);
             this.trayicon_menu_exit.Image = ((System.Drawing.Image)(resources.GetObject("trayicon_menu_exit.Image")));
             this.trayicon_menu_exit.Name = "trayicon_menu_exit";
-            this.trayicon_menu_exit.Size = new System.Drawing.Size(450, 46);
+            this.trayicon_menu_exit.Size = new System.Drawing.Size(220, 30);
             this.trayicon_menu_exit.Text = "E&xit";
             this.trayicon_menu_exit.Click += new System.EventHandler(this.trayicon_menu_exit_Click);
             // 
@@ -170,18 +170,18 @@
             this.statusstrip.ImageScalingSize = new System.Drawing.Size(24, 24);
             this.statusstrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.statusstrip_statuslabel});
-            this.statusstrip.Location = new System.Drawing.Point(0, 1053);
+            this.statusstrip.Location = new System.Drawing.Point(0, 439);
             this.statusstrip.Name = "statusstrip";
-            this.statusstrip.Padding = new System.Windows.Forms.Padding(4, 0, 37, 0);
+            this.statusstrip.Padding = new System.Windows.Forms.Padding(2, 0, 14, 0);
             this.statusstrip.RenderMode = System.Windows.Forms.ToolStripRenderMode.ManagerRenderMode;
-            this.statusstrip.Size = new System.Drawing.Size(1945, 46);
+            this.statusstrip.Size = new System.Drawing.Size(729, 22);
             this.statusstrip.TabIndex = 7;
             this.statusstrip.Text = "statusStrip";
             // 
             // statusstrip_statuslabel
             // 
             this.statusstrip_statuslabel.Name = "statusstrip_statuslabel";
-            this.statusstrip_statuslabel.Size = new System.Drawing.Size(237, 41);
+            this.statusstrip_statuslabel.Size = new System.Drawing.Size(94, 17);
             this.statusstrip_statuslabel.Text = "Service Manager";
             // 
             // mainmenu
@@ -193,8 +193,7 @@
             this.mainmenu_help});
             this.mainmenu.Location = new System.Drawing.Point(0, 0);
             this.mainmenu.Name = "mainmenu";
-            this.mainmenu.Padding = new System.Windows.Forms.Padding(16, 5, 0, 5);
-            this.mainmenu.Size = new System.Drawing.Size(1945, 55);
+            this.mainmenu.Size = new System.Drawing.Size(729, 24);
             this.mainmenu.TabIndex = 9;
             this.mainmenu.Text = "Service Manager Menu";
             // 
@@ -203,14 +202,14 @@
             this.mainmenu_file.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mainmenu_file_exit});
             this.mainmenu_file.Name = "mainmenu_file";
-            this.mainmenu_file.Size = new System.Drawing.Size(75, 45);
+            this.mainmenu_file.Size = new System.Drawing.Size(37, 20);
             this.mainmenu_file.Text = "&File";
             // 
             // mainmenu_file_exit
             // 
             this.mainmenu_file_exit.Image = ((System.Drawing.Image)(resources.GetObject("mainmenu_file_exit.Image")));
             this.mainmenu_file_exit.Name = "mainmenu_file_exit";
-            this.mainmenu_file_exit.Size = new System.Drawing.Size(178, 46);
+            this.mainmenu_file_exit.Size = new System.Drawing.Size(93, 22);
             this.mainmenu_file_exit.Text = "E&xit";
             this.mainmenu_file_exit.Click += new System.EventHandler(this.generic_exit_Click);
             // 
@@ -221,27 +220,27 @@
             this.mainmenurefresh_separator1,
             this.mainmenu_tools_option});
             this.mainmenu_tools.Name = "mainmenu_tools";
-            this.mainmenu_tools.Size = new System.Drawing.Size(99, 45);
+            this.mainmenu_tools.Size = new System.Drawing.Size(46, 20);
             this.mainmenu_tools.Text = "&Tools";
             // 
             // mainmenu_tools_refresh
             // 
             this.mainmenu_tools_refresh.Image = ((System.Drawing.Image)(resources.GetObject("mainmenu_tools_refresh.Image")));
             this.mainmenu_tools_refresh.Name = "mainmenu_tools_refresh";
-            this.mainmenu_tools_refresh.Size = new System.Drawing.Size(238, 46);
+            this.mainmenu_tools_refresh.Size = new System.Drawing.Size(116, 22);
             this.mainmenu_tools_refresh.Text = "&Refresh";
             this.mainmenu_tools_refresh.Click += new System.EventHandler(this.generic_refreshbutton_Click);
             // 
             // mainmenurefresh_separator1
             // 
             this.mainmenurefresh_separator1.Name = "mainmenurefresh_separator1";
-            this.mainmenurefresh_separator1.Size = new System.Drawing.Size(235, 6);
+            this.mainmenurefresh_separator1.Size = new System.Drawing.Size(113, 6);
             // 
             // mainmenu_tools_option
             // 
             this.mainmenu_tools_option.Image = ((System.Drawing.Image)(resources.GetObject("mainmenu_tools_option.Image")));
             this.mainmenu_tools_option.Name = "mainmenu_tools_option";
-            this.mainmenu_tools_option.Size = new System.Drawing.Size(238, 46);
+            this.mainmenu_tools_option.Size = new System.Drawing.Size(116, 22);
             this.mainmenu_tools_option.Text = "&Options";
             this.mainmenu_tools_option.Click += new System.EventHandler(this.mainmenu_tools_option_Click);
             // 
@@ -250,14 +249,14 @@
             this.mainmenu_help.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.mainmenu_help_about});
             this.mainmenu_help.Name = "mainmenu_help";
-            this.mainmenu_help.Size = new System.Drawing.Size(92, 45);
+            this.mainmenu_help.Size = new System.Drawing.Size(44, 20);
             this.mainmenu_help.Text = "&Help";
             // 
             // mainmenu_help_about
             // 
             this.mainmenu_help_about.Image = ((System.Drawing.Image)(resources.GetObject("mainmenu_help_about.Image")));
             this.mainmenu_help_about.Name = "mainmenu_help_about";
-            this.mainmenu_help_about.Size = new System.Drawing.Size(235, 46);
+            this.mainmenu_help_about.Size = new System.Drawing.Size(116, 22);
             this.mainmenu_help_about.Text = "&About...";
             this.mainmenu_help_about.Click += new System.EventHandler(this.mainmenu_help_about_Click);
             // 
@@ -301,7 +300,7 @@
             this.servicegrid.DefaultCellStyle = dataGridViewCellStyle3;
             this.servicegrid.Dock = System.Windows.Forms.DockStyle.Fill;
             this.servicegrid.Location = new System.Drawing.Point(0, 0);
-            this.servicegrid.Margin = new System.Windows.Forms.Padding(7, 8, 7, 53);
+            this.servicegrid.Margin = new System.Windows.Forms.Padding(3, 3, 3, 22);
             this.servicegrid.MultiSelect = false;
             this.servicegrid.Name = "servicegrid";
             this.servicegrid.ReadOnly = true;
@@ -317,7 +316,7 @@
             this.servicegrid.RowTemplate.Resizable = System.Windows.Forms.DataGridViewTriState.True;
             this.servicegrid.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.servicegrid.ShowEditingIcon = false;
-            this.servicegrid.Size = new System.Drawing.Size(1497, 950);
+            this.servicegrid.Size = new System.Drawing.Size(562, 384);
             this.servicegrid.TabIndex = 10;
             this.servicegrid.VirtualMode = true;
             this.servicegrid.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.servicegrid_CellClick);
@@ -386,13 +385,13 @@
             this.servicegrid_contextmenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.servicegrid_contextmenu_refresh});
             this.servicegrid_contextmenu.Name = "servicegrid_contextmenu";
-            this.servicegrid_contextmenu.Size = new System.Drawing.Size(203, 50);
+            this.servicegrid_contextmenu.Size = new System.Drawing.Size(122, 34);
             // 
             // servicegrid_contextmenu_refresh
             // 
             this.servicegrid_contextmenu_refresh.Image = ((System.Drawing.Image)(resources.GetObject("servicegrid_contextmenu_refresh.Image")));
             this.servicegrid_contextmenu_refresh.Name = "servicegrid_contextmenu_refresh";
-            this.servicegrid_contextmenu_refresh.Size = new System.Drawing.Size(202, 46);
+            this.servicegrid_contextmenu_refresh.Size = new System.Drawing.Size(121, 30);
             this.servicegrid_contextmenu_refresh.Text = "Refresh";
             this.servicegrid_contextmenu_refresh.Click += new System.EventHandler(this.generic_refreshbutton_Click);
             // 
@@ -419,8 +418,8 @@
             this.toolstrip.LayoutStyle = System.Windows.Forms.ToolStripLayoutStyle.HorizontalStackWithOverflow;
             this.toolstrip.Location = new System.Drawing.Point(0, 0);
             this.toolstrip.Name = "toolstrip";
-            this.toolstrip.Padding = new System.Windows.Forms.Padding(0, 0, 4, 0);
-            this.toolstrip.Size = new System.Drawing.Size(1945, 48);
+            this.toolstrip.Padding = new System.Windows.Forms.Padding(0, 0, 2, 0);
+            this.toolstrip.Size = new System.Drawing.Size(729, 31);
             this.toolstrip.TabIndex = 15;
             this.toolstrip.Text = "toolStrip1";
             // 
@@ -430,67 +429,68 @@
             this.toolstrip_refreshbutton.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolstrip_refreshbutton.Margin = new System.Windows.Forms.Padding(6, 1, 0, 2);
             this.toolstrip_refreshbutton.Name = "toolstrip_refreshbutton";
-            this.toolstrip_refreshbutton.Size = new System.Drawing.Size(144, 45);
+            this.toolstrip_refreshbutton.Size = new System.Drawing.Size(74, 28);
             this.toolstrip_refreshbutton.Text = "&Refresh";
             this.toolstrip_refreshbutton.Click += new System.EventHandler(this.generic_refreshbutton_Click);
             // 
             // toolStripSeparator1
             // 
             this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 48);
+            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 31);
             // 
             // toolstrip_winservicemanager
             // 
             this.toolstrip_winservicemanager.Image = ((System.Drawing.Image)(resources.GetObject("toolstrip_winservicemanager.Image")));
             this.toolstrip_winservicemanager.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolstrip_winservicemanager.Name = "toolstrip_winservicemanager";
-            this.toolstrip_winservicemanager.Size = new System.Drawing.Size(392, 45);
+            this.toolstrip_winservicemanager.Size = new System.Drawing.Size(173, 28);
             this.toolstrip_winservicemanager.Text = "Windows &service manager";
             this.toolstrip_winservicemanager.Click += new System.EventHandler(this.toolstrip_winservicemanager_Click);
             // 
             // toolStripSeparator2
             // 
             this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 48);
+            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 31);
             // 
             // toolstrip_taskmanager
             // 
             this.toolstrip_taskmanager.Image = ((System.Drawing.Image)(resources.GetObject("toolstrip_taskmanager.Image")));
             this.toolstrip_taskmanager.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolstrip_taskmanager.Name = "toolstrip_taskmanager";
-            this.toolstrip_taskmanager.Size = new System.Drawing.Size(227, 45);
+            this.toolstrip_taskmanager.Size = new System.Drawing.Size(107, 28);
             this.toolstrip_taskmanager.Text = "&Task manager";
             this.toolstrip_taskmanager.Click += new System.EventHandler(this.toolstrip_taskmanager_Click);
             // 
             // toolStripSeparator4
             // 
             this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 48);
+            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 31);
             // 
             // toolStripLabel1
             // 
             this.toolStripLabel1.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Text;
             this.toolStripLabel1.Name = "toolStripLabel1";
-            this.toolStripLabel1.Size = new System.Drawing.Size(224, 45);
+            this.toolStripLabel1.Size = new System.Drawing.Size(89, 28);
             this.toolStripLabel1.Text = "Search services:";
             // 
             // searchFilter
             // 
+            this.searchFilter.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.searchFilter.Name = "searchFilter";
-            this.searchFilter.Size = new System.Drawing.Size(100, 48);
+            this.searchFilter.Size = new System.Drawing.Size(40, 31);
             this.searchFilter.ToolTipText = "You might search in the services";
             // 
             // toolStripSeparator5
             // 
             this.toolStripSeparator5.Name = "toolStripSeparator5";
-            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 48);
+            this.toolStripSeparator5.Size = new System.Drawing.Size(6, 31);
             // 
             // toolStripButton1
             // 
             this.toolStripButton1.Image = ((System.Drawing.Image)(resources.GetObject("toolStripButton1.Image")));
             this.toolStripButton1.ImageTransparentColor = System.Drawing.Color.Magenta;
             this.toolStripButton1.Name = "toolStripButton1";
-            this.toolStripButton1.Size = new System.Drawing.Size(92, 45);
+            this.toolStripButton1.Size = new System.Drawing.Size(54, 28);
             this.toolStripButton1.Text = "E&xit";
             this.toolStripButton1.Click += new System.EventHandler(this.generic_exit_Click);
             // 
@@ -499,17 +499,15 @@
             this.contentpanel.Controls.Add(this.splitcontainer);
             this.contentpanel.Controls.Add(this.toolstrip);
             this.contentpanel.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.contentpanel.Location = new System.Drawing.Point(0, 55);
-            this.contentpanel.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
+            this.contentpanel.Location = new System.Drawing.Point(0, 24);
             this.contentpanel.Name = "contentpanel";
-            this.contentpanel.Size = new System.Drawing.Size(1945, 998);
+            this.contentpanel.Size = new System.Drawing.Size(729, 415);
             this.contentpanel.TabIndex = 16;
             // 
             // splitcontainer
             // 
             this.splitcontainer.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitcontainer.Location = new System.Drawing.Point(0, 48);
-            this.splitcontainer.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
+            this.splitcontainer.Location = new System.Drawing.Point(0, 31);
             this.splitcontainer.Name = "splitcontainer";
             // 
             // splitcontainer.Panel1
@@ -520,9 +518,8 @@
             // splitcontainer.Panel2
             // 
             this.splitcontainer.Panel2.Controls.Add(this.servicegrid);
-            this.splitcontainer.Size = new System.Drawing.Size(1945, 950);
-            this.splitcontainer.SplitterDistance = 437;
-            this.splitcontainer.SplitterWidth = 11;
+            this.splitcontainer.Size = new System.Drawing.Size(729, 384);
+            this.splitcontainer.SplitterDistance = 163;
             this.splitcontainer.TabIndex = 17;
             // 
             // infopanel_table
@@ -534,13 +531,12 @@
             this.infopanel_table.Controls.Add(this.tableLayoutPanel1, 0, 2);
             this.infopanel_table.Dock = System.Windows.Forms.DockStyle.Fill;
             this.infopanel_table.Location = new System.Drawing.Point(0, 0);
-            this.infopanel_table.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
             this.infopanel_table.Name = "infopanel_table";
             this.infopanel_table.RowCount = 3;
-            this.infopanel_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 76F));
+            this.infopanel_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 32F));
             this.infopanel_table.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.infopanel_table.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.infopanel_table.Size = new System.Drawing.Size(437, 950);
+            this.infopanel_table.Size = new System.Drawing.Size(163, 384);
             this.infopanel_table.TabIndex = 1;
             // 
             // infopanel_name
@@ -549,10 +545,10 @@
             this.infopanel_name.AutoSize = true;
             this.infopanel_name.Dock = System.Windows.Forms.DockStyle.Fill;
             this.infopanel_name.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.infopanel_name.Location = new System.Drawing.Point(7, 14);
-            this.infopanel_name.Margin = new System.Windows.Forms.Padding(7, 14, 7, 0);
+            this.infopanel_name.Location = new System.Drawing.Point(3, 6);
+            this.infopanel_name.Margin = new System.Windows.Forms.Padding(3, 6, 3, 0);
             this.infopanel_name.Name = "infopanel_name";
-            this.infopanel_name.Size = new System.Drawing.Size(423, 62);
+            this.infopanel_name.Size = new System.Drawing.Size(157, 26);
             this.infopanel_name.TabIndex = 0;
             this.infopanel_name.Text = "[name]";
             // 
@@ -561,10 +557,9 @@
             this.infopanel_description.AutoEllipsis = true;
             this.infopanel_description.AutoSize = true;
             this.infopanel_description.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.infopanel_description.Location = new System.Drawing.Point(7, 76);
-            this.infopanel_description.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.infopanel_description.Location = new System.Drawing.Point(3, 32);
             this.infopanel_description.Name = "infopanel_description";
-            this.infopanel_description.Size = new System.Drawing.Size(423, 756);
+            this.infopanel_description.Size = new System.Drawing.Size(157, 303);
             this.infopanel_description.TabIndex = 1;
             this.infopanel_description.Text = "[description]";
             // 
@@ -574,13 +569,12 @@
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.tableLayoutPanel1.Controls.Add(this.label1, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.searchServiceInfo, 0, 1);
-            this.tableLayoutPanel1.Location = new System.Drawing.Point(7, 840);
-            this.tableLayoutPanel1.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
+            this.tableLayoutPanel1.Location = new System.Drawing.Point(3, 338);
             this.tableLayoutPanel1.Name = "tableLayoutPanel1";
             this.tableLayoutPanel1.RowCount = 2;
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
             this.tableLayoutPanel1.RowStyles.Add(new System.Windows.Forms.RowStyle());
-            this.tableLayoutPanel1.Size = new System.Drawing.Size(421, 102);
+            this.tableLayoutPanel1.Size = new System.Drawing.Size(157, 43);
             this.tableLayoutPanel1.TabIndex = 2;
             // 
             // label1
@@ -588,33 +582,30 @@
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(7, 0);
-            this.label1.Margin = new System.Windows.Forms.Padding(7, 0, 7, 0);
+            this.label1.Location = new System.Drawing.Point(3, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(407, 32);
+            this.label1.Size = new System.Drawing.Size(151, 13);
             this.label1.TabIndex = 0;
             this.label1.Text = "Search services";
             // 
             // searchServiceInfo
             // 
             this.searchServiceInfo.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.searchServiceInfo.Location = new System.Drawing.Point(7, 40);
-            this.searchServiceInfo.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
+            this.searchServiceInfo.Location = new System.Drawing.Point(3, 16);
             this.searchServiceInfo.Name = "searchServiceInfo";
-            this.searchServiceInfo.Size = new System.Drawing.Size(407, 38);
+            this.searchServiceInfo.Size = new System.Drawing.Size(151, 20);
             this.searchServiceInfo.TabIndex = 1;
             // 
             // ServiceManagerForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(16F, 31F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1945, 1099);
+            this.ClientSize = new System.Drawing.Size(729, 461);
             this.Controls.Add(this.contentpanel);
             this.Controls.Add(this.statusstrip);
             this.Controls.Add(this.mainmenu);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MainMenuStrip = this.mainmenu;
-            this.Margin = new System.Windows.Forms.Padding(7, 8, 7, 8);
             this.Name = "ServiceManagerForm";
             this.ShowInTaskbar = false;
             this.Text = "Service Manager";
